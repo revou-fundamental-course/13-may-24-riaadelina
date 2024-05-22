@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>refo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- luas segitiga -->
+    <header id="luas">
+        <h1>Welcome to TriSolver</h1>
+        <div class="welcome">
+            <p><b>Selamat datang di TriSolver !</b></p>
+            <p><b>Kamu bisa input alas dan tinggi untuk menghitung luas segitiga</b></p>
+        </div>
+    </header>
+    <section>
+        <section>
+            <div>
+                <h3>segitiga</h3>
+            </div>
+            <div class="switch">
+                <a href="#keliling">Keliling Segitiga</a>
+            </div>
+            <div class="title">
+                <h2>luas segitiga</h2>
+            </div>
+    
+            <div class="formula-img">
+                <img src="assets/segitiga.png">
+            </div>
+            <div class="formula-count">
+                <p><b>Rumus luas segitiga yaitu :</b></p>
+                <p><b>L = 0.5 * a * t</b></p>
+            </div>
+        </section>
+
+        <hr />
+
+        <section>
+            <header>
+                <h2>Hitung luas segtiga</h2>
+            </header>
+            <form>
+                <div>
+                    <input type="number" id="alas" name="alas" placeholder="alas">
+                    <input type="number" id="tinggi" name="tinggi" placeholder="tinggi">
+                </div>
+                <div class="value">
+                    <input type="button" value="hitung" onclick="hitungLuasSegitiga()">
+                    <input type="reset" value="reset">
+                </div>
+            </form>
+            <p><b id="hasilLuas"></b></p>
+        </section>
+    </section>
+
+
+    <!-- keliling segitiga -->
+    <header id="keliling">
+        <h1>Welcome to TriSolver</h1>
+        <div class="welcome">
+            <p><b>Selamat datang di TriSolver !</b></p>
+            <p><b>Kamu bisa input nilai a, b, dan c untuk menghitung keliling segitiga</b></p>
+        </div>
+    </header>
+    <section>
+        <section>
+            <div>
+                <h3>segitiga</h3>
+            </div>
+            <div class="switch">
+                <a href="#luas">Luas Segitiga</a>
+            </div>
+            <div class="title">
+                <h2>keliling segitiga</h2>
+            </div>
+    
+            <div class="formula-img">
+                <img src="assets/segitiga.png">
+            </div>
+            <div class="formula-count">
+                <p><b>Rumus keliling segitiga yaitu :</b></p>
+                <p><b>K = a + b + c</b></p>
+            </div>
+        </section>
+
+        <hr />
+
+        <section>
+            <header>
+                <h2>Hitung keliling segtiga</h2>
+            </header>
+            <form>
+                <div>
+                    <input type="number" id="a" name="a" placeholder="a">
+                    <input type="number" id="b" name="b" placeholder="b">
+                    <input type="number" id="c" name="c" placeholder="c">
+                </div>
+                <div class="value">
+                    <input type="button" value="hitung" onclick="hitungKelilingSegitiga()">
+                    <input type="reset" value="reset">
+                </div>
+            </form>
+            <p><b id="hasilKeliling"></b></p>
+        </section>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

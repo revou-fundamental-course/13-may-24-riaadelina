@@ -1,0 +1,70 @@
+/* ini css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: rgb(145, 114, 145);
+    border-radius: 5px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(145, 114, 145);
+    color: white;
+    border-radius: 5px;
+}
+
+.switch {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(145, 114, 145);
+    color: white;
+    border-radius: 5px;
+}
+
+.formula-img {
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    width: 150px;
+}
+
+.formula-count {
+    text-align: center;
+    color: rgb(145, 114, 145);
+    margin-bottom: 50px;
+}
+
+input {
+    background-color: thistle;
+    border-color: rgb(145, 114, 145);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.value {
+    margin-top: 20px;
+}
